@@ -18,11 +18,11 @@ apt install gnupg2 -y
 - Запускаем скрипт для настройки репозитория Jenkis
 sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
 ```
-![Установленная Java](https://github.com/HartLAS/8-2-hw/pictures/java_installed.png)
+![Установленная Java](https://github.com/HartLAS/8-2-hw/blob/main/pictures/java_installed.png)
 
-![Установленный Jenkins](https://github.com/HartLAS/8-2-hw/pictures/jenkins_installed.png)
+![Установленный Jenkins](https://github.com/HartLAS/8-2-hw/blob/main/pictures/jenkins_installed.png)
 
-![Jenkins UI](https://github.com/HartLAS/8-2-hw/pictures/jenkins_ui.png)
+![Jenkins UI](https://github.com/HartLAS/8-2-hw/blob/main/pictures/jenkins_ui.png)
  
  **2. Установка Go**
  
@@ -40,7 +40,7 @@ mv go /usr/local/
 go version
 ```
  
-![Установленный Golang](https://github.com/HartLAS/8-2-hw/pictures/go_installed.png)
+![Установленный Golang](https://github.com/HartLAS/8-2-hw/blob/main/pictures/go_installed.png)
 
  **3. Установка Docker**
  
@@ -87,15 +87,15 @@ service docker start
     sudo docker build . 
 ```
 
-![Настройки Jenkins](https://github.com/HartLAS/8-2-hw/pictures/jenkins_settings_1.png)
+![Настройки Jenkins](https://github.com/HartLAS/8-2-hw/blob/main/pictures/jenkins_settings_1.png)
 
-![Настройки Jenkins](https://github.com/HartLAS/8-2-hw/pictures/jenkins_settings_2.png)
+![Настройки Jenkins](https://github.com/HartLAS/8-2-hw/blob/main/pictures/jenkins_settings_2.png)
 
-![Настройки Jenkins](https://github.com/HartLAS/8-2-hw/pictures/jenkins_settings_3.png)
+![Настройки Jenkins](https://github.com/HartLAS/8-2-hw/blob/main/pictures/jenkins_settings_3.png)
 
-![Успешный пайп скрин №1](https://github.com/HartLAS/8-2-hw/pictures/success_pipe.png)
+![Успешный пайп скрин №1](https://github.com/HartLAS/8-2-hw/blob/main/pictures/success_pipe.png)
 
-![Успешный пайп скрин №2](https://github.com/HartLAS/8-2-hw/pictures/success_pipe_end.png)
+![Успешный пайп скрин №2](https://github.com/HartLAS/8-2-hw/blob/main/pictures/success_pipe_end.png)
 
 ## Задание №2
 
@@ -123,13 +123,13 @@ service docker start
     }
 ```
 
-![Настройки Jenkins](https://github.com/HartLAS/8-2-hw/pictures/pipeline_settings_1.png)
+![Настройки Jenkins](https://github.com/HartLAS/8-2-hw/blob/main/pictures/pipeline_settings_1.png)
 
-![Настройки Jenkins](https://github.com/HartLAS/8-2-hw/pictures/pipeline_settings_2.png)
+![Настройки Jenkins](https://github.com/HartLAS/8-2-hw/blob/main/pictures/pipeline_settings_2.png)
 
-![Успешный пайп скрин №1](https://github.com/HartLAS/8-2-hw/pictures/pipeline_success_1.png)
+![Успешный пайп скрин №1](https://github.com/HartLAS/8-2-hw/blob/main/pictures/pipeline_success_1.png)
 
-![Успешный пайп скрин №2](https://github.com/HartLAS/8-2-hw/pictures/pipeline_success_2.png)
+![Успешный пайп скрин №2](https://github.com/HartLAS/8-2-hw/blob/main/pictures/pipeline_success_2.png)
 
 ## Задание №3
 
@@ -164,11 +164,11 @@ pipeline {
 }
 ```
 
-![Репозиторий Nexus](https://github.com/HartLAS/8-2-hw/pictures/nexus-repo.png)
+![Репозиторий Nexus](https://github.com/HartLAS/8-2-hw/blob/main/pictures/nexus-repo.png)
 
-![Успешный пайп](https://github.com/HartLAS/8-2-hw/pictures/task_3_1.png)
+![Успешный пайп](https://github.com/HartLAS/8-2-hw/blob/main/pictures/task_3_1.png)
 
-![Успешный пайп](https://github.com/HartLAS/8-2-hw/pictures/task_3_2.png)
+![Успешный пайп](https://github.com/HartLAS/8-2-hw/blob/main/pictures/task_3_2.png)
 
 ## Задание №4
 
@@ -197,6 +197,6 @@ pipeline {
 }
 ```
 
-![Успешный пайп](https://github.com/HartLAS/8-2-hw/pictures/task_4_1.png)
+![Успешный пайп](https://github.com/HartLAS/8-2-hw/blob/main/pictures/task_4_1.png)
 
-![Успешный пайп](https://github.com/HartLAS/8-2-hw/pictures/task_4_2.png)
+![Успешный пайп](https://github.com/HartLAS/8-2-hw/blob/main/pictures/task_4_2.png)
